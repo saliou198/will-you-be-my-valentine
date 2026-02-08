@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Manrope:wght@400;600;700&display=swap');
+
+:root {
+  --pink-1: #fff1f5;
+  --pink-2: #ffd4e1;
+  --pink-3: #ff9db5;
+  --ink: #2a0c16;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #fff7fb 0%, var(--pink-1) 40%, #f7d2dc 100%);
+  color: var(--ink);
+  font-family: "Fraunces", "Georgia", serif;
+  text-align: center;
+}
+
+.card {
+  width: min(720px, 90vw);
+  background: linear-gradient(145deg, #fffafb, #ffe4ec);
+  border-radius: 28px;
+  padding: 32px 26px 36px;
+  box-shadow: 0 20px 50px rgba(43, 12, 22, 0.18);
+  display: grid;
+  gap: 18px;
+}
+
+.gif-image {
+  width: min(420px, 80vw);
+  border-radius: 22px;
+  box-shadow: 0 14px 30px rgba(191, 44, 85, 0.18);
+  justify-self: center;
+}
+
+.message {
+  margin: 0;
+  font-size: clamp(20px, 3vw, 26px);
+  font-family: "Manrope", "Helvetica", sans-serif;
+}
