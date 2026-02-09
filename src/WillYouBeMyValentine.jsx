@@ -23,6 +23,9 @@ function YesOrNo() {
       setText(messages[random]);
       setMove((prev) => prev+20);
     }
+    if (name === 'yes'){
+      windows.location.href = '/ILoveYou.html';
+    }
   }
 
   return (
