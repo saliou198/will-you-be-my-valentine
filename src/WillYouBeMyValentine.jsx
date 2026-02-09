@@ -16,7 +16,7 @@ function YesOrNo() {
   
   const random = Math.floor(Math.random() * messages.length);
 
-  function handleClick(event) {
+  function handleClick(event) { 
     const name = event.target.name;
     if (name === 'no') {
       setScale((prev) => prev + 0.35);
