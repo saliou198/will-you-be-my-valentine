@@ -24,7 +24,7 @@ function YesOrNo() {
       setMove((prev) => prev+20);
     }
     if (name === 'yes'){
-      windows.location.href = '/ILoveYou.html';
+      window.location.href = 'ILoveYou.html';
     }
   }
 
@@ -41,7 +41,7 @@ function YesOrNo() {
           onClick={handleClick}
           style={{ transform: `scale(${scale})` }}
         >
-          <a href="/ILoveYou.html">Yes</a>
+          <a href="ILoveYou.html">Yes</a>
         </button>
 
         <button
