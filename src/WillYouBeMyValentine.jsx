@@ -30,7 +30,7 @@ function YesOrNo() {
 
   return (
     <section className="valentine-card">
-      <p className="title">Will you be my Valentine?</p>
+      <p className="title">Will you be my Girlfriend?</p>
       <p className="subtitle">{text}</p>
 
       <div className="button-area">
